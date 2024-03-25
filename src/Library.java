@@ -4,6 +4,7 @@ public class Library {
     private String Address;
     private int Stablished_Year;
     private int Table_count;
+
     public Library(String ID , String name , int stablished_Year , int table_count , String address ){
         this.Address = address;
         this.ID = ID;
@@ -15,12 +16,6 @@ public class Library {
     public String getID() {
         return ID;
     }
-
-
-
-
-
-
 
 
 
