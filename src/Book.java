@@ -8,7 +8,11 @@ public class Book {
     private String Lib_ID;
     private String categories_ID;
 
-    public Book(String ID , String title , String Authors , String publisher , int year , int Num_copy , String categories_ID ,String lib_ID)
+    public String getID() {
+        return ID;
+    }
+
+    public Book(String ID , String title , String Authors , String publisher , int year , int Num_copy , String categories_ID , String lib_ID)
     {
         this.Authors = Authors;
         this.categories_ID = categories_ID;

@@ -4,6 +4,15 @@ public class Library {
     private String Address;
     private int Stablished_Year;
     private int Table_count;
+    private Book[] books = new Book[100];
+    private int book_count;
+    private int[] num_of_book;
+
+    public void setBook(int book_counter , Book book , int book_count){
+        books[book_counter] = book;
+        num_of_book[book_counter] = book_count;
+
+    }
 
     public Library(String ID , String name , int stablished_Year , int table_count , String address ){
         this.Address = address;
